@@ -115,6 +115,7 @@ nav a{
     border-bottom: 1px dashed grey;
 }
 /*end of header styles*/
+/* Index Body Styles */
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -140,13 +141,13 @@ nav a{
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    /*background: black;*/
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+/*end of index body styles*/
 /* About Page Body Styles */
 .about-info{
     margin-bottom: 2%;
