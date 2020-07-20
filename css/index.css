@@ -61,7 +61,10 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
-
+ h1{
+     font-weight: bold;
+ }
+ 
 p {
     line-height: 1.4;
 }
@@ -70,7 +73,27 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+/*header styles*/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    margin-top:0;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+nav a{
+    padding: 5%;
+    text-decoration: none;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -78,7 +101,21 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
+.hero-img{
+    margin: 0 auto;
+    padding-bottom: 2%;
+}
+.jumbo-about{
+    margin: 0 auto;
+    padding-bottom: 2%;
+} 
+.header-info{
+    margin-bottom: 2%;
+    padding: 2%;
+    border-bottom: 1px dashed grey;
+}
+/*end of header styles*/
+/* Index Body Styles */
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -87,7 +124,7 @@ p {
 
 .middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    border-bottom: 1px dashed grey;
 }
 
 .middle-content h2 {
@@ -104,14 +141,104 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+/*end of index body styles*/
+/* About Page Body Styles */
+.about-info{
+    margin-bottom: 2%;
+}
+.first-section{
+    display: flex;
+    padding: 2%;
+    width: 100%;
+}
+.second-section{
+    display: flex;
+    padding: 2%;
+    width: 100%;
+}
+div.strategy{
+    margin-right: 2%;
+    padding-bottom: 2%;
+    width: 100%;
+    border-bottom: 1px dashed grey;
+}
+div.work{
+    margin-left: 2%;
+    padding-bottom: 2%;
+    width: 100%;
+    border-bottom: 1px dashed grey;
+} 
+div.work-location{
+    margin-right: 2%;
+    padding-bottom: 2%;
+    width: 100%;
+    border-bottom: 1px dashed grey;
+}
+div.collaboration{
+    margin-left: 2%;
+    padding-bottom: 2%;
+    width: 100%;
+    border-bottom: 1px dashed grey;
+}
+.btn{
+    margin-top: 5%;
+    border:1.5px solid black;
+    border-radius: .5em;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    background-color: white;
+}
+.bottom-section{
+    margin-bottom: 2%;
+    padding: 2%;
+}
+.cta{
+ font-weight: bold;    
+}
+/*box colors*/
+.box1{
+    background-color: teal;
+}
+.box2{
+    background-color: gold;
+}
+.box3{
+    background-color: cadetblue;
+}
+.box4{
+    background-color:coral;
+}
+.box5{
+    background-color: crimson;
+}
+.box6{
+    background-color: forestgreen;
+}
+.box7{
+    background-color: darkorchid;
+}
+.box8{
+    background-color: hotpink;
+}
+.box9{
+    background-color: indigo;
+}
+.box10{
+    background-color: dodgerblue;
+}
 
+
+
+
+/*end of box colors*/
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -128,6 +255,7 @@ p {
 
 footer {
     width: 100%;
+    height: auto;
     background: black;
 }
 
